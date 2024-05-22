@@ -1,6 +1,7 @@
 import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import { useLocation } from "react-router-dom"; 
+import Button from "./Button"
 
 function Header() {
   const { pathname } = useLocation(); 
@@ -31,6 +32,14 @@ function Header() {
             ))}
           </div>
         </nav>
+        <a href="#signup" className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1">
+               New Account
+        </a>
+        <Button claasName="hidden lg:flex href='#login">
+
+          sign in
+
+        </Button>
       </div>
     </div>
   );
