@@ -35,11 +35,11 @@ function Header() {
         <a href="#signup" className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1">
                New Account
         </a>
-        <Button claasName="hidden lg:flex href='#login">
+        <Button className="hidden lg:flex href='#login">
 
           sign in
-
         </Button>
+         
       </div>
     </div>
   );

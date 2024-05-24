@@ -8,9 +8,7 @@ const App = () => {
      <Header />
 
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-         <Button className="mt-20" href="#login">
-             clickme!
-         </Button>
+         
       </div>
       <ButtonGradient />
      
